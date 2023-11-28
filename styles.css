@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Jost');
+
+html, body {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-style: bold;
+}
+
+.navbar a {
+    color: antiquewhite;
+}
+
+/*background image for home title card*/
+.bgimage {
+    height:100vh;
+    background: url('img/cover.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above background image*/
+.home_title {
+    font-size: 4.5rem;
+}
+.home_desc {
+    font-size: 2rem;
+}
+.home-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage, .catLaptopImg {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#quote {
+    background-color: #3e4aec;
+    border: #0313fc;
+    box-shadow: 5px 10px #313131;
+    border-radius: 20px;
+}
+
+/*skills section css */
+.skillsText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p, .card li {
+    text-align: justify;
+}
+
+.card:hover .skillsIcon {
+    color: #0313fc;
+}
+
+.skillsText:hover {
+    border: 1px solid #0313fc;
+}
+
+.tableContact a {
+    color: black;
+}
+
+.tableContact a:hover {
+    color: #3544f0;
+}
+
+.fab, .fas {
+    color: #000000;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.tableContact tr {
+    height: 50px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.tableContact td {
+    padding: 20px;
+}
+
+
+/* footer styling */
+.navbar, #footer {
+    background-color: #313131;
+    text-align: center;
+    color: antiquewhite;
+}
+
+/* spacing on all sections */
+#about, #skills, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
