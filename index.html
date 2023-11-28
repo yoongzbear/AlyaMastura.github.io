@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Alya Mastura Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!--bootstrap CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <!--transparent background, six links, can toggle on small devices using Bootstrap 5 (responsive)-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alya Mastura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <!-- main banner -->
+     <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 home-text">
+                <h2 class="home_title"><u>All About Alya Mastura</u></h2>
+                <p class="home_desc">Welcome to my website! &#128153;</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-3">
+                    <img src="img/alyaid.png" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>Hi! I'm Alya Mastura, a 19 years old Software Engineering student at Asia Pacific University of Technology and Innovation in Bukit Jalil, Kuala Lumpur. I have been into Computer Science since I was 13 and will continue to do so for the rest of my life!
+                    </p>
+                    <p>
+                        My fun facts:
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <ul>
+                                <li>Cats are my will to live! They are so silly and make my day a brighter one whenever I see them :)</li>
+                                <li>I love to crochet. I have made countless pieces since I was 16 including cardigans, bags, and stuffed dolls.</li>
+                                <li>I also love to listen to music!! My favorite artists are DEAN and PinkPantheress but I listen to many other artists. <a href='https://open.spotify.com/playlist/1PCqtY02Q9S1x4hGUO9dHD?si=f8b81696f44248a0'>Here</a> is my playlist on Spotify!</li>
+                                <li>Dream Job: Software Developer</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3" id="quote">
+                    <center><p><b><i>
+                        "Your journey in the Computer Science world is a non-stop learning process. You have to learn something new every day." <br></i> - Mr. Shahaab, my Networking lecturer
+                    </b></p>
+                    </center>
+                </div>
+                <center>
+                <div class="row mt-3 col-lg-4" id="catLaptop">
+                    <img src="img/catLaptop.jpg" class="catLaptopImg">
+                    <p>Figure: Me as a cat making this website &#129315;</p>
+                </div></center>
+            </div>
+    </section>
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="img/sejkuiz.png" alt="History Quiz" style="width:80%">
+                        <img class="card-img-top" src="img/sejkuiz2.png" alt="History Quiz 2" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">History Quiz Website</h4>
+                            <h6 class="text-center">2022</h6>
+                            <p class="card-text">A website for History Quiz was developed using HTML, CSS, JavaScript and PHP. This website allows the students to answer quizzes and view their scores, 
+                                whereas the teachers and the admin can manage quizzes, students, and classes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="img/hotel2.png" alt="Hotel System" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">Hotel Management System</h4>
+                            <h6 class="text-center">2023</h6>
+                            <p class="card-text">Using Python, a hotel management system was made. Customers can register new accounts and make reservations while the staff can view reservations, 
+                                manage rooms, generate customer bill, and produce stay reports.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--skills section-->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas skillsIcon fa-bars"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <ul class="card-text mt-3">
+                                <li>Principles in good website navigational structure</li>
+                                <li>HTML, CSS, JavaScript, PHP</li>
+                                <li>Input form validation</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-database'></i>
+                            <h4 class="card-title mt-3">Database Management</h4>
+                            <ul class="card-text mt-3">
+                                <li>Entity Relationship Diagram</li>
+                                <li>Normalization</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='far skillsIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">System Development</h4>
+                            <ul class="card-text mt-3">
+                                <li>SDLC</li>
+                                <li>Feasibility study</li>
+                                <li>Requirement gathering</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-wifi'></i>
+                            <h4 class="card-title mt-3">Networking</h4>
+                            <ul class="card-text mt-3">
+                                <li>Network topology</li>
+                                <li>VLSM</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-code'></i>
+                            <h4 class="card-title mt-3">Programming Languages</h4>
+                            <ul class="card-text mt-3">
+                                <li>Principles of good programming</li>
+                                <li>Python, Java</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <p>Contact me through these social media platforms for more inquiries!</p>
+            <table class="tableContact">
+                <tr rowspan="2">
+                    <td class="contactLabel"><i class="fas fa-envelope"></i>Email:</td>
+                    <td><a href="mailto:masturalya04@gmail.com" target="_blank">masturalya04@gmail.com</a>
+                        <br><a href="mailto:tp070074@mail.apu.edu.my" target="_blank">tp070074@mail.apu.edu.my</a></td>
+                </tr>
+                <tr>
+                    <td class="contactLabel"><i class="fab fa-linkedin"></i>LinkedIn: </td>
+                    <td><a href="https://www.linkedin.com/in/alya-mastura-nor-ridwan" target="_blank">www.linkedin.com/in/alya-mastura-nor-ridwan</a></td>
+                </tr>
+                <tr>
+                    <td class="contactLabel"><i class="fab fa-instagram"></i>Instagram: </td>
+                    <td>@<a href="https://instagram.com/mastura_alya?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" target="_blank">mastura_alya</a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+     <!-- footer section-->
+     <footer id="footer">
+        <div class="container-fluid">
+            <p>Thank you for visiting this website &#128153; Have a nice day!</p>
+        </div>
+    </footer>
+</body>
+</html>
