@@ -24,7 +24,7 @@ h1 {
 /*background image for home title card*/
 .bgimage {
     height:100vh;
-    background: url('https://AlyaMastura.github.io/img/cover.jpg');
+    background: url('https://img/cover.jpg');
     background-size:cover;
     position:relative;
 }
