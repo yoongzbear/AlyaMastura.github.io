@@ -128,3 +128,7 @@ h1 {
 #contact {
     padding-bottom: 4rem;
 }
+
+a:link {
+    text-decoration: none;
+}
